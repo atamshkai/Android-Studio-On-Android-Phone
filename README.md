@@ -111,17 +111,17 @@ export ANDROID_SDK_ROOT=/Users/android/android-sdk-linux export PATH=$PATH:$ANDR
 
 ##### Android_SDK 
 
-[Link](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/sdk/android-sdk.tar.xz)
+[Download](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/sdk/android-sdk.tar.xz)
 
 ##### Android_Build_Tools(for_termux)
 
-[Link](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/v33.0.3/build-tools-33.0.3-aarch64.tar.xz)
+[Download](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/v33.0.3/build-tools-33.0.3-aarch64.tar.xz)
 
 ##### Android_Platform_Tools(for_termux)
 
-[Link](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/v33.0.3/platform-tools-33.0.3-aarch64.tar.xz)
+[Download](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/v33.0.3/platform-tools-33.0.3-aarch64.tar.xz)
 
 ##### Android_Command_Line_Tools(for_termux)
 
 
-[Link](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/sdk/cmdline-tools.tar.xz)
+[Download](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/sdk/cmdline-tools.tar.xz)
