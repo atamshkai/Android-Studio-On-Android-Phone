@@ -13,7 +13,7 @@ Before you install it , disable phantom process killer.Watch from here.
 
 Download debian.tar.xz to Device's Download folder first.
 
-### ZSH 
+### Install zsh
 
 ```
 pkg up -y && pkg i -y zsh wget
