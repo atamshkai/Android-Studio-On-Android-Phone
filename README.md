@@ -9,9 +9,52 @@ Before you install it , disable phantom process killer.Watch from here.
 
 [Link](https://www.mediafire.com/file/grzre0zxsrwmxkc/debian.tar.xz/file)
 
-### termux_commands
+### Installation
 
-https://pastebin.com/M0hgQSFm
+Download distro to Download folder first.
+
+
+```
+echo "killall pulseaudio &>/dev/null" >>~/.zshrc
+```
+``` 
+echo "pulseaudio --start --exit-idle-time=-1; pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" >>~/.zshrc
+```
+```
+pkg up -y && pkg i -y x11-repo && pkg i -y proot-distro pulseaudio termux-x11-nightly
+```
+``` 
+termux-setup-storage
+```
+``` 
+proot-distro restore /sdcard/download/debian.tar.xz
+```
+ 
+Before login to proot,start termux-x11 first.
+ 
+```
+termux-x11 :1
+```
+ 
+Then,open another session & login
+ 
+```
+proot-distro login debian --shared-tmp
+```
+ 
+Then
+ 
+```
+export PULSE_SERVER=127.0.0.1;env DISPLAY=:1 dbus-launch --exit-with-session xfce4-session
+```
+ 
+OR 
+ 
+```
+tm-x11
+```
+
+# Manual
 
 
 If you want to install android-studio manually,use debian or kali.Then install desktop-gui and download android-studio.
@@ -41,27 +84,27 @@ export GRADLE_USER_HOME=$HOME/.gradle
 export ANDROID_SDK_ROOT=/Users/android/android-sdk-linux export PATH=$PATH:$ANDROID_SDK_ROOT/tools
 ```
 
-### Termux_x11
+##### Termux_x11
 
 [Link](https://github.com/atamshkai/termux-x11)
 
-### Termux_monet
+##### Termux_monet
 
 [Link](https://github.com/atamshkai/termux-monet)
 
-### Android_SDK
+##### Android_SDK 
 
 [Link](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/sdk/android-sdk.tar.xz)
 
-### Android_Build_Tools(for_termux)
+##### Android_Build_Tools(for_termux)
 
 [Link](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/v33.0.3/build-tools-33.0.3-aarch64.tar.xz)
 
-### Android_Platform_Tools(for_termux)
+##### Android_Platform_Tools(for_termux)
 
 [Link](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/v33.0.3/platform-tools-33.0.3-aarch64.tar.xz)
 
-### Android_Command_Line_Tools(for_termux)
+##### Android_Command_Line_Tools(for_termux)
 
 
 [Link](https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/sdk/cmdline-tools.tar.xz)
