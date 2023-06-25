@@ -5,15 +5,32 @@ Before you install it , disable phantom process killer.Watch from here.
 
 [Youtube](https://youtu.be/UxmQSETvAOc)
 
-## Download Debian Distro Here,
+### First,Download Debian Distro From Here,
 
 [Link](https://www.mediafire.com/file/grzre0zxsrwmxkc/debian.tar.xz/file)
 
-### Installation
+## Installation
 
-Download distro to Download folder first.
+Download debian.tar.xz to Device's Download folder first.
 
+### ZSH 
 
+```
+pkg up -y && pkg i -y zsh wget
+
+wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
+
+tar -xvJf zsh.tar.xz && mv zsh/.* ~/ && rm -rf zsh
+
+chsh -s zsh
+```
+
+Login again to terminal
+
+```
+exit
+```
+Then,
 ```
 echo "killall pulseaudio &>/dev/null" >>~/.zshrc
 ```
