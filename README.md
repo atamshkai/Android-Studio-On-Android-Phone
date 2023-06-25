@@ -7,6 +7,8 @@ Before you install it , disable phantom process killer.Watch from here.
 
 ## Preview
 
+![](https://raw.githubusercontent.com/atamshkai/Android-Studio-On-Android-Phone/main/Debian%20Android%20Studio.png)
+
 # To Do
 
 #### First,Download Debian Distro From Here,
@@ -28,12 +30,11 @@ tar -xvJf zsh.tar.xz && mv zsh/.* ~/ && rm -rf zsh
 
 chsh -s zsh
 ```
-
-Login again to terminal
-
 ```
 exit
 ```
+Login again to terminal
+
 Then,
 ```
 echo "killall pulseaudio &>/dev/null" >>~/.zshrc
