@@ -5,7 +5,11 @@ Before you install it , disable phantom process killer.Watch from here.
 
 [Youtube](https://youtu.be/UxmQSETvAOc)
 
-### First,Download Debian Distro From Here,
+## Preview
+
+# To Do
+
+#### First,Download Debian Distro From Here,
 
 [Link](https://www.mediafire.com/file/grzre0zxsrwmxkc/debian.tar.xz/file)
 
