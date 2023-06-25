@@ -56,7 +56,7 @@ https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/v33.0.3
 
 https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/v33.0.3/platform-tools-33.0.3-aarch64.tar.xz
 
-#Android_Command_Line_Tools(for_termux)
+### Android_Command_Line_Tools(for_termux)
 
 
 https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/sdk/cmdline-tools.tar.xz
