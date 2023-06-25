@@ -71,7 +71,7 @@ OR
 tm-x11
 ```
 
-# Manual
+# Manual Installation
 
 
 If you want to install android-studio manually,use debian or kali.Then install desktop-gui and download android-studio.
@@ -85,7 +85,7 @@ apt update && apt install -y apt-utils;apt install -y nano xfce4 xfce4-goodies d
 
 [Link](https://www.androiddevtools.cn/android-studio)
 
-#Notic
+# Notic
 
 To use Android Studio,You must set Gradle's home or you will get errors
 
