@@ -93,9 +93,9 @@ If you want to install android-studio manually,use debian or kali.Then install d
 apt update && apt install -y apt-utils;apt install -y nano xfce4 xfce4-goodies default-jtk
 ```
 
-### Download_Android_Studio
+### Download_Android_Studio To Download
 
-[Link](https://www.androiddevtools.cn/android-studio)
+[Link](https://www.androiddevtools.cn/android-studio) 
 
 # Notic
 
@@ -113,13 +113,13 @@ export GRADLE_USER_HOME=$HOME/.gradle
 export ANDROID_SDK_ROOT=/Users/android/android-sdk-linux export PATH=$PATH:$ANDROID_SDK_ROOT/tools
 ```
 
-##### Termux_x11
+## Termux
 
-[Link](https://github.com/atamshkai/termux-x11)
+[Download](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk)
 
-##### Termux_monet
+## Termux-x11
 
-[Link](https://github.com/atamshkai/termux-monet)
+[Download](https://archive.org/download/termux-x11/app-universal-debug.apk)
 
 ##### Android_SDK 
 
