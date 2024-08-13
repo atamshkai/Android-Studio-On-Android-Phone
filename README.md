@@ -3,7 +3,7 @@
 This is a preinstalled debian-linux distro with android studio.You can really create your own applications and many projects from github and others.
 Before you install it , disable phantom process killer.Watch from here.
 
-[Youtube](https://youtu.be/UxmQSETvAOc)
+[Here](https://github.com/atamshkai/Phantom-Process-Killer/tree/main) 
 
 ## Preview
 
